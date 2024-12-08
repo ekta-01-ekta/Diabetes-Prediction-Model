@@ -28,12 +28,10 @@ variable (outcome) which determines whether patient is having diabetes
 or not.
 
 # Data Splitting
-The dataset consists of 768 samples. The dataset has total 9 attributes
-Pregnancies, Glucose, Blood Pressure, Skin thickness, Insulin, BMI,
-Diabetes Pedigree Function, Age, Outcome out of which 8 are
-independent variables and one is the dependent variable i.e. target
-variable (outcome) which determines whether patient is having diabetes
-or not.
+Data is divided into training and testing data into 80:20 ratio. Eighty
+percent was training data and twenty percent was testing data. Out of
+768 records, 614 records were used for trained and 154 records were
+used for testing.
 
 # Conclusion
 As we are doing classification of diabetic and non
